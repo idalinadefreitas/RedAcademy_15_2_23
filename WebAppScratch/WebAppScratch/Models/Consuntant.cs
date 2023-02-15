@@ -8,7 +8,7 @@ namespace RedAcademySite.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "The name field is mandatory!")]
-        [StringLength(100, MinimumLength = 3, ErrorMessage = "Name field mus be between 3 and 50 characters")]
+        [StringLength(100, MinimumLength = 3, ErrorMessage = "Name field mus be between 3 and 100 characters")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "The role field is mandatory!")]
@@ -16,11 +16,11 @@ namespace RedAcademySite.Models
         public string Role { get; set; }
 
         [Required(ErrorMessage = "The email field is mandatory!")]
-        [StringLength(250, MinimumLength = 3, ErrorMessage = "Email field mus be between 3 and 50 characters")]
+        [StringLength(250, MinimumLength = 3, ErrorMessage = "Email field mus be between 3 and 250 characters")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "The image field is mandatory!")]
-        [StringLength(300, MinimumLength = 3, ErrorMessage = "Iamge field mus be between 3 and 50 characters")]
+        [StringLength(300, MinimumLength = 3, ErrorMessage = "Iamge field mus be between 3 and 300 characters")]
         public string Image { get; set; }
 
         [Required(ErrorMessage = "The team field is mandatory!")]
