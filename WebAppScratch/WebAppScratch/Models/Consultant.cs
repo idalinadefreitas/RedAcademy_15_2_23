@@ -2,7 +2,7 @@
 
 namespace RedAcademySite.Models
 {
-    public class Consuntant
+    public class Consultant
     {
         [Key]
         public int Id { get; set; }
